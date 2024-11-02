@@ -1,0 +1,4 @@
+flask
+requests
+bs4
+Flask-Cors==3.0.10
