@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: cursive;   
+        }
+
+        body{
+            background-color: antiquewhite;
+            color: rgb(28, 28, 28);
+        }
+
+        h1{
+            font-weight: bolder;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .routes{
+            padding-left: 50px;
+        }
+
+        code{
+            background-color: rgba(255, 255, 255, 0.837);
+            padding: 0 4px;
+            border-radius: 5px;
+            color: rgb(18, 18, 18);
+        }
+        li{
+            margin: 4px 0;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>MelodyHub API</h1>
+    <h2>Routes -</h2>
+    <div class="routes">
+        <ul>
+            <li>search- <code>/search?q={query}</code></li>
+            <li>search tracks- <code>/search/tracks?q={query}&page={pageNo}</code></li>
+            <li>discover- <code>/discover</code></li>
+        </ul>
+    </div>
+</body>
+</html>
